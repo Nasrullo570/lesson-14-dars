@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$a:red;
+
+.test{
+    width: 500px;
+    margin: 0 auto;
+    background: #ccc;
+    padding: 20px;
+
+    h1{
+        text-align: center;
+        color: red;
+    }
+
+    p{
+        color: $a;
+    }
+
+}
+.content{
+    width: 500px;
+    margin: 30px auto;
+    &-title{
+        background-color: red;
+        button{
+            padding: 8px 16px;
+            &:nth-child(2){
+                background: gold;
+                margin: 0 20px;
+                &:hover{
+                    background: white;
+                }
+            }
+            &:hover{
+                background: blue;
+            }
+        }
+    }
+    
+    &_body{
+        background: yellow;
+    }
+
+}

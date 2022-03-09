@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.test {
+  width: 500px;
+  margin: 0 auto;
+  background: #ccc;
+  padding: 20px;
+}
+
+.test h1 {
+  text-align: center;
+  color: red;
+}
+
+.test p {
+  color: red;
+}
+
+.content {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.content-title {
+  background-color: red;
+}
+
+.content-title button {
+  padding: 8px 16px;
+}
+
+.content-title button:nth-child(2) {
+  background: gold;
+  margin: 0 20px;
+}
+
+.content-title button:nth-child(2):hover {
+  background: white;
+}
+
+.content-title button:hover {
+  background: blue;
+}
+
+.content_body {
+  background: yellow;
+}
+/*# sourceMappingURL=style.css.map */
